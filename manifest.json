@@ -1,0 +1,20 @@
+{
+  "name": "CecyFood",
+  "short_name": "CecyFood",
+  "start_url": "/CecyFood/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8B4513",
+  "icons": [
+    {
+      "src": "/CecyFood/assets/img/icono-192.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/CecyFood/assets/img/icono-512.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
