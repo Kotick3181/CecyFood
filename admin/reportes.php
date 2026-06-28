@@ -3,10 +3,7 @@
 include("../config/admin_auth.php");
 include("../config/conexion.php");
 
-
-// ===============================
 // PROMEDIO DE CALIFICACIONES
-// ===============================
 
 $promedio = $conn->query("
 SELECT AVG(calificacion) AS promedio
@@ -15,10 +12,7 @@ FROM satisfaccion
 
 $promedio = $promedio['promedio'] ?? 0;
 
-
-// ===============================
 // TOTAL DE OPINIONES
-// ===============================
 
 $totalOpiniones = $conn->query("
 SELECT COUNT(*) AS total
@@ -27,11 +21,8 @@ FROM satisfaccion
 
 $totalOpiniones = $totalOpiniones['total'];
 
-
-// ===============================
 // PORCENTAJE DE OPINIONES POSITIVAS
 // (4 y 5 estrellas)
-// ===============================
 
 $positivas = $conn->query("
 SELECT COUNT(*) AS total
@@ -52,10 +43,7 @@ if ($totalOpiniones > 0) {
 
 }
 
-
-// ===============================
 // LISTA DE OPINIONES
-// ===============================
 
 $opiniones = $conn->query("
 
