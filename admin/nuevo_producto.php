@@ -157,6 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 <option value="4">🌯 Burritos</option>
                 <option value="5">🧀 Molletes</option>
                 <option value="6">🥤 Bebidas</option>
+                <option value="7">Comidas completas</option>
 
             </select>
 

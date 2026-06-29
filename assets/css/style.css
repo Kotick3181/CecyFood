@@ -1162,9 +1162,6 @@ input,
     margin-bottom: 15px;
 }
 
-
-
-
 /* Pedidos */
 
 .pedido-card {
@@ -1821,12 +1818,7 @@ textarea {
 
 }
 
-
-
-
-/* =========================
-   DASHBOARD LAYOUT
-========================= */
+/*DASHBOARD LAYOUT*/
 
 .dashboard-layout {
 
@@ -1849,9 +1841,7 @@ textarea {
     }
 }
 
-/* =========================
-   DASHBOARD GRID
-========================= */
+/* DASHBOARD GRID */
 
 .dashboard {
 
@@ -1864,9 +1854,7 @@ textarea {
     margin-top: 20px;
 }
 
-/* =========================
-   CARD ADMIN MEJORADA
-========================= */
+/* CARD ADMIN MEJORADA */
 
 .card-admin {
 
@@ -1892,9 +1880,7 @@ textarea {
     box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
 }
 
-/* =========================
-   TARJETAS DE RESUMEN
-========================= */
+/* TARJETAS DE RESUMEN*/
 
 .card-admin h3 {
 
@@ -1912,9 +1898,7 @@ textarea {
     font-weight: bold;
 }
 
-/* =========================
-   COLORES POR TIPO
-========================= */
+/* COLORES POR TIPO */
 
 .card-admin.productos { border-left: 5px solid #2ecc71; }
 .card-admin.usuarios  { border-left: 5px solid #3498db; }
@@ -1922,9 +1906,7 @@ textarea {
 .card-admin.ventas    { border-left: 5px solid gold; }
 .card-admin.pendientes{ border-left: 5px solid #e74c3c; }
 
-/* =========================
-   LISTAS (TOP PRODUCTOS ETC)
-========================= */
+/* LISTAS (TOP PRODUCTOS ETC) */
 
 .card-admin.lista {
 
@@ -1949,9 +1931,7 @@ textarea {
     border-bottom: none;
 }
 
-/* =========================
-   ACCIONES RÁPIDAS
-========================= */
+/* ACCIONES RÁPIDAS */
 
 .quick-actions {
 
@@ -1992,9 +1972,7 @@ textarea {
     transform: translateY(-3px);
 }
 
-/* =========================
-   LINKS ADMIN (los tuyos)
-========================= */
+/* LINKS ADMIN */
 
 .admin-links {
 
@@ -2029,9 +2007,7 @@ textarea {
     transform: translateY(-2px);
 }
 
-/* =========================
-   GRÁFICA CONTENEDOR
-========================= */
+/* GRÁFICA CONTENEDOR */
 
 .grafica-container {
 
@@ -2076,8 +2052,6 @@ textarea {
 }
 
 /*administrar productos*/
-
-
 
 .producto-admin {
 

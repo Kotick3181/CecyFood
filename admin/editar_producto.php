@@ -99,6 +99,8 @@ WHERE id=$id
 
                 <option value="6" <?php if ($producto['categoria_id'] == 6) echo "selected"; ?>>Bebidas</option>
 
+                <option value="7" <?php if ($producto['categoria_id'] == 7) echo "selected"; ?>>Comidas Completas</option>
+
             </select>
 
             <label>Stock</label>

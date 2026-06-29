@@ -195,6 +195,7 @@ $notificacion =
 
                             <button
                                 class="btn-favorito"
+                                data-favorito="<?php echo $producto['id']; ?>"
                                 onclick="toggleFavorito(<?php echo $producto['id']; ?>)">
 
                                 <?php echo $producto['es_favorito'] ? "❤️" : "🤍"; ?>

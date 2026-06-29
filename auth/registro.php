@@ -23,7 +23,10 @@ if (isset($_SESSION['usuario'])) {
     <div class="auth-container">
 
         <div class="logo-placeholder">
-            LOGO
+             <img
+                src="../assets/img/logo.jpeg"
+                class="logo-app"
+                alt="logo">
         </div>
 
         <h2>Crear Cuenta</h2>
