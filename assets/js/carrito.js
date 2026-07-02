@@ -18,18 +18,16 @@ function agregarCarrito(id, stock) {
 
         .then(data => {
 
-            document.getElementById(
-                "contadorCarrito"
-            ).innerText =
-                data.cantidad;
+            const contador = document.getElementById("contadorCarrito");
 
+            if (contador) {
+                contador.innerText = data.cantidad;
+            }
 
-            mostrarToast(
-                "Producto agregado"
-            );
+            mostrarToast("Producto agregado");
+
         });
 }
-
 function actualizarContador() {
 
     fetch("../api/carrito_count.php")
@@ -38,13 +36,17 @@ function actualizarContador() {
 
         .then(data => {
 
-            document.getElementById(
-                "contadorCarrito"
-            ).innerText =
-                data.cantidad;
+            const contador = document.getElementById("contadorCarrito");
+
+            if (contador) {
+                contador.innerText = data.cantidad;
+            }
+
         });
 
 }
+
+
 
 actualizarContador();
 

@@ -105,16 +105,19 @@ function crearPedido() {
         alert("Error de conexión");
     });
 }
-
 const metodoPago = document.getElementById("metodoPago");
 const datosTarjeta = document.getElementById("datosTarjeta");
 
-metodoPago.addEventListener("change", () => {
+if (metodoPago && datosTarjeta) {
 
-    if (metodoPago.value == "Tarjeta") {
-        datosTarjeta.style.display = "block";
-    } else {
-        datosTarjeta.style.display = "none";
-    }
+    metodoPago.addEventListener("change", () => {
 
-});
+        if (metodoPago.value == "Tarjeta") {
+            datosTarjeta.style.display = "block";
+        } else {
+            datosTarjeta.style.display = "none";
+        }
+
+    });
+
+}

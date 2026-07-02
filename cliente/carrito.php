@@ -22,8 +22,8 @@ WHERE usuario_id = $usuario_id
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -174,7 +174,7 @@ WHERE usuario_id = $usuario_id
 
                 <h3>💳 Método de pago</h3>
 
-                <select id="metodoPago">
+                <select id="metodoPago" name="metodoPago">
 
                     <option value="Efectivo">
                         💵 Efectivo
@@ -229,6 +229,7 @@ WHERE usuario_id = $usuario_id
         <?php } ?>
 
     </div>
+
     <nav class="bottom-nav">
 
         <a href="menu.php" class="nav-item">
